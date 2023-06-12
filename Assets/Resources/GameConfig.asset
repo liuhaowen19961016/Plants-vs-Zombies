@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ddd8b418ca2c4f43840026609595020, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: 
+  moneyPerSun: 50
+  initMoney: 5555
+  plantConfigs:
+  - canUse: {fileID: 21300000, guid: 1ab9677e36f73de469ed34e6f9087422, type: 3}
+    cantUse: {fileID: 21300000, guid: 75170af65a5fbed4f85df823cbef1d5e, type: 3}
+    cooldownTime: 1
+    prefab: {fileID: 2420254617340857661, guid: 80c307229445cff40bda5282314ddf38,
+      type: 3}
+    price: 50
+    hp: 3
+    damage: 0
+    attackTI: 5
+    param1_int: 
+  - canUse: {fileID: 21300000, guid: bea4cbe66fef17b44aeffff46d275d78, type: 3}
+    cantUse: {fileID: 21300000, guid: 662cbcb123148fd4a9f676b5c7a303a7, type: 3}
+    cooldownTime: 1
+    prefab: {fileID: 1785580435574847887, guid: efab9a1e6fe8dd84fba60dbbca8270c0,
+      type: 3}
+    price: 100
+    hp: 3
+    damage: 1
+    attackTI: 3
+    param1_int: 
+  - canUse: {fileID: 21300000, guid: 7d572587b45b8d24e863af49cfd80036, type: 3}
+    cantUse: {fileID: 21300000, guid: d83081e51b32d7d4dbc13bc0ae659266, type: 3}
+    cooldownTime: 1
+    prefab: {fileID: 91234681871534618, guid: ff98c361586fbec42846ca392f78489f, type: 3}
+    price: 200
+    hp: 5
+    damage: 1
+    attackTI: 5
+    param1_int: 
+  - canUse: {fileID: 21300000, guid: 7dc9e91ae66d0af41a23f8a7768ae6b5, type: 3}
+    cantUse: {fileID: 21300000, guid: d19ed6faaaa2dd94db7c551753b1159b, type: 3}
+    cooldownTime: 1
+    prefab: {fileID: 9073458645051135823, guid: bae478309f7cc5547889bf330b1acef1,
+      type: 3}
+    price: 325
+    hp: 5
+    damage: 1
+    attackTI: 5
+    param1_int: 
+  - canUse: {fileID: 21300000, guid: 78aabd7e9cd2fba40ace52286b7f37dc, type: 3}
+    cantUse: {fileID: 21300000, guid: 0cb191b289c43a740873e0387d6f8818, type: 3}
+    cooldownTime: 1
+    prefab: {fileID: 8918543252954416204, guid: 415ef26ee3b0d9748bd0819cbd402707,
+      type: 3}
+    price: 50
+    hp: 10
+    damage: 0
+    attackTI: 0
+    param1_int: 0700000003000000
+  - canUse: {fileID: 21300000, guid: 3de6db69372f9b24b838b970fb3f84a1, type: 3}
+    cantUse: {fileID: 21300000, guid: f65a826453aa2154891d40a07df60cc6, type: 3}
+    cooldownTime: 1
+    prefab: {fileID: 1637113903653536812, guid: ab6b73e5561f8e64b96710c0d38e1db1,
+      type: 3}
+    price: 25
+    hp: 99999
+    damage: 99999
+    attackTI: 0
+    param1_int: 
+  - canUse: {fileID: 21300000, guid: 909af3310a248034eb8a3f7b3b21b5a9, type: 3}
+    cantUse: {fileID: 21300000, guid: 51d02a3a650d35a41a0f09312654affd, type: 3}
+    cooldownTime: 1
+    prefab: {fileID: 7414782847346220492, guid: 56d967bbb7d878f4896c94c9cc451b6b,
+      type: 3}
+    price: 175
+    hp: 5
+    damage: 1
+    attackTI: 5
+    param1_int: 
+  enemyConfigs:
+  - prefab: {fileID: 6552221428321479619, guid: 5634b51b3291f994e89212042d31d348,
+      type: 3}
+    totalHp: 5
+    stageHp: 03000000
+    attackTI: 2
+    damage: 2
+    moveSpeed: 0.3
+  enemySpawnPosY:
+  - 2
+  - 1
+  - 0
+  - -1
+  - -2
